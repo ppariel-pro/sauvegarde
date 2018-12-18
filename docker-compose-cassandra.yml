@@ -1,0 +1,9 @@
+version: '3'
+services:
+  cassandra:
+    image: cassandra:2.2 
+    volumes:
+    - db_data:/var/lib/cassandra/data
+volumes:
+  db_data:
+
